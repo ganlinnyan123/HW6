@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 微軟正黑體;
+}
+.wrapper{
+    width: 950px;
+    margin: 0px auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 7px 16%;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+}
+.header{
+    width: 950px;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header li{
+    margin-left: 12px;
+    font-size: 13px;
+    color: white;
+}
+.header li a{
+    text-decoration: none;
+    color: white;
+}
+.header li a:hover{
+    text-decoration:underline;
+}
+.header_right li:nth-child(6) a{
+    color: red;
+}
+.content{
+    margin: 0px auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content_top{
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.top{
+    float: right;
+}
+.bottom{
+    margin-left: -20px;
+    margin-top: 15px;
+    float: right;
+}
+.bottom img{
+    margin-left: -5px;
+}
+.content_img img{
+    width: 950px;
+}
+.content_img{
+    display: flex;
+    justify-content: center;
+}
+.content_news{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.news_left{
+    font-size: 12px;
+    border-right: 2px solid #999999;
+    padding-right: 13px;
+    width: 242px;
+}
+.h2{
+    color: #999999;
+    margin-bottom: 10px;
+}
+.news_left a{
+    color: black;
+    text-decoration: none;
+}
+.news_left a:hover{
+    text-decoration: underline;
+    color: #999999;
+}
+.more{
+    margin-left: 180px;
+}
+.text input{
+    width: 35px;
+    background-color: #F8661D;
+    border: none;
+    border-radius: 2px;
+}
+.text{
+    border-bottom: 0.5px black solid;
+}
+.r1{
+    font-size: 13px;
+    width: 152px;
+    height: 320px;
+    margin: 0 0px 30px 10px;
+    border: 1px solid black;
+}
+.r1:nth-child(1){
+    margin-left: 30px;
+}
+.r1_1 img{
+    margin-bottom: 5px;
+}
+.r1_1 p{
+    margin-bottom: 8px;
+}
+.r1_1 a{
+    color: black;
+    text-decoration: none;
+}
+.r1_1 a:hover{
+    color: #999999;
+    text-decoration: underline;
+}
+.r1_1{
+    height: 220px;
+    border-bottom: 1px #999999 dotted;
+    margin: 5px;
+}
+.r1_2{
+    margin: 5px;
+}
+.r1_2 p{
+    margin-bottom: 10px;
+}
+.new_left{
+    display: flex;
+    flex-direction: row;
+}
+.new_right{
+    margin:0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.new_right img{
+    margin-bottom:6px ;
+}
+.news_right{
+    display: flex;
+    flex-direction: row;
+}
+.page_top{
+    margin-top: 15px;
+    height: 30px;
+    width: 100%;
+    border-top: 3px black dotted;
+}
+.page_top img{
+    margin-top: 10px;
+    float: right;
+}
+.list{
+    font-size: 12px;
+    margin-right: 50px;
+}
+.list ul{
+    width: 174px;
+    list-style: none;
+}
+.list a{
+    color: black;
+    text-decoration: none;
+}
+.list a:hover{
+    color: #999999;
+    text-decoration: underline;
+}
+.list li:nth-child(1){
+    margin-bottom: 15px;
+}
+.list li:nth-of-type(1n+2){
+    height: 24px;
+    margin-bottom: 5px;
+    border-bottom: 0.5px black dotted;
+}
+.content_list{
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px 0 45px;
+}
+.more_1{
+    margin-left: 145px;
+}
+.number{
+    width: 100%;
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 35px;
+    background-color: black;
+}
+.footer_bottom ul{
+    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.footer_bottom li{
+    margin-top: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 13px;
+}
+.footer_bottom li:nth-child(1){
+    margin-left: 60px;
+}
+.footer_bottom li a{
+    color: white;
+    text-decoration: none;
+}
+.footer_bottom li a:hover{
+    text-decoration: underline;
+}
+.footer_bottom{
+    width: 950px;
+    margin: 0px auto;
+}
+.footer_top{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.footer_top img{
+    margin-bottom: -5px;
+    margin-left: 5px;
+}
